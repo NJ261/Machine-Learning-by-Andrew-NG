@@ -42,16 +42,6 @@ grad = (1 / m) * X' * (htheta - y);
 temp = theta; 
 temp(1) = 0;    
 grad = grad + (lambda/m) * temp;
-
-
-
-
-
-
-
-
-
-
 % =============================================================
 
 grad = grad(:);
